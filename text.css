@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Hero background gradient */
+.hero-bg {
+  background: linear-gradient(135deg, #ff80bf, #7e57c2);
+}
+
+/* Text gradient effect */
+.text-gradient {
+  display: inline-block;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff80bf, #7e57c2);
+  color: #ff66b2;
+  background-size: 100%;
+  background-clip: border-box;
+  text-shadow: 2px 2px 6px rgba(126, 87, 194, 0.4);
+}
+
+
+/* Footer */
+.footer {
+  background-color: #2d1f45;
+}
+
+/* Buttons */
+.btn-light:hover {
+  background-color: #f3d1ff;
+  color: #e1d4f7;
+  transition: 0.3s ease;
+}
